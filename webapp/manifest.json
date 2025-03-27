@@ -16,21 +16,21 @@
       "toolsId": "9b0fdb6f-f072-4466-b78b-3b0737887a4e"
     },
     "dataSources": {
-      "SEPMRA_PO_MAN_ANNO_MDL": {
-        "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='SEPMRA_PO_MAN_ANNO_MDL',Version='0001')/$value/",
+      "SEPMRA_PROD_MAN_ANNO_MDL": {
+        "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='SEPMRA_PROD_MAN_ANNO_MDL',Version='0001')/$value/",
         "type": "ODataAnnotation",
         "settings": {
-          "localUri": "localService/SEPMRA_PO_MAN_ANNO_MDL.xml"
+          "localUri": "localService/mainService/SEPMRA_PROD_MAN_ANNO_MDL.xml"
         }
       },
       "mainService": {
-        "uri": "/sap/opu/odata/sap/SEPMRA_PO_MAN/",
+        "uri": "/sap/opu/odata/sap/SEPMRA_PROD_MAN/",
         "type": "OData",
         "settings": {
           "annotations": [
-            "SEPMRA_PO_MAN_ANNO_MDL"
+            "SEPMRA_PROD_MAN_ANNO_MDL"
           ],
-          "localUri": "localService/metadata.xml",
+          "localUri": "localService/mainService/metadata.xml",
           "odataVersion": "2.0"
         }
       }

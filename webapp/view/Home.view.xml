@@ -1,8 +1,8 @@
 <mvc:View controllerName="com.bootcamp.sapui5.smartcontrols.controller.Home"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m"
-    xmlns:smartTable="sap.ui.comp.smarttable"
-    xmlns:smartFilterBar="sap.ui.comp.smartfilterbar">
+    xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+    xmlns:smartTable="sap.ui.comp.smarttable">
     <Page id="page" title="{i18n>title}">
         <content >
                 <smartFilterBar:SmartFilterBar
